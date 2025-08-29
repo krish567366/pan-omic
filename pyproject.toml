@@ -3,7 +3,7 @@ requires = ["setuptools>=65.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pce"
+name = "pan-omic-consciousness-engine"
 version = "1.0.0-alpha"
 description = "Pan-Omics Consciousness Engine - A computational framework for modeling consciousness emergence"
 readme = "README.md"
@@ -91,7 +91,7 @@ Repository = "https://github.com/krish567366/pan-omic"
 "Bug Tracker" = "https://github.com/krish567366/pan-omic/issues"
 
 [project.scripts]
-pce = "pce.cli:main"
+pan-omic-ce = "pce.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

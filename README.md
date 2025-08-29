@@ -139,22 +139,22 @@ PCE provides a comprehensive CLI for all functionality:
 
 ```bash
 # Load and analyze data
-pce load --dataset toy_neural_omics --format auto
+pan-omic-ce load --dataset toy_neural_omics --format auto
 
 # Run individual subsystems  
-pce mogil --build-hypergraph --encode
-pce qlem --optimize --quantum-coherence
-pce e3de --evolve --population neural --generations 25
-pce hdts --simulate --duration 1.0 --scales 5
-pce cis --integrate --cycles 100
+pan-omic-ce mogil --build-hypergraph --encode
+pan-omic-ce qlem --optimize --quantum-coherence
+pan-omic-ce e3de --evolve --population neural --generations 25
+pan-omic-ce hdts --simulate --duration 1.0 --scales 5
+pan-omic-ce cis --integrate --cycles 100
 
 # Full pipeline analysis
-pce pipeline --input data.csv --output results/ --cycles 100
+pan-omic-ce pipeline --input data.csv --output results/ --cycles 100
 
 # System status and configuration
-pce status
-pce config --list
-pce version
+pan-omic-ce status
+pan-omic-ce config --list
+pan-omic-ce version
 ```
 
 ## 📊 Scientific Foundations
@@ -360,7 +360,7 @@ The Pan-Omics Consciousness Engine (PCE) is a revolutionary computational framew
 ### Installation
 
 ```bash
-pip install panomics-consciousness-engine
+pip install pan-omic-consciousness-engine
 ```
 
 ### Basic Usage
@@ -411,19 +411,19 @@ print(report.summary())
 
 ```bash
 # Ingest omics data
-pce ingest --dataset toy_mixed_omics --format h5
+pan-omic-ce ingest --dataset toy_mixed_omics --format h5
 
 # Train latent embeddings
-pce train --latent-dim 256 --alpha 0.3 --beta 0.7
+pan-omic-ce train --latent-dim 256 --alpha 0.3 --beta 0.7
 
 # Run evolutionary dynamics
-pce evolve --steps 200 --operators mutate,rewire,recombine
+pan-omic-ce evolve --steps 200 --operators mutate,rewire,recombine
 
 # Simulate digital twin
-pce simulate --levels L0,L1,L2,L3,L4,L5 --steps 100 --output report.json
+pan-omic-ce simulate --levels L0,L1,L2,L3,L4,L5 --steps 100 --output report.json
 
 # Start API server
-pce serve --host 0.0.0.0 --port 8000
+pan-omic-ce serve --host 0.0.0.0 --port 8000
 ```
 
 ### REST API

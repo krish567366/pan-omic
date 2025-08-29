@@ -102,7 +102,7 @@ EXTRAS_REQUIRE["full"] = list(set(
 
 # Console scripts for CLI
 CONSOLE_SCRIPTS = [
-    "pce=pce.cli:main",
+    "pan-omic-ce=pce.cli:main",
 ]
 
 # Entry points for plugins
@@ -121,7 +121,7 @@ ENTRY_POINTS = {
 }
 
 setup(
-    name="pce",
+    name="pan-omic-consciousness-engine",
     version=get_version(),
     description="Pan-Omics Consciousness Engine - A computational framework for modeling consciousness emergence",
     long_description=get_long_description(),
