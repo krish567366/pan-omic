@@ -9,10 +9,12 @@ description = "Pan-Omics Consciousness Engine - A computational framework for mo
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
-    {name = "PCE Development Team", email = "dev@pce.ai"}
+    {name = "Krishna Bajpai", email = "krishna@krishna.me"},
+    {name = "Veddanshi Gupta", email = "krishna@krishna.me"}
 ]
 maintainers = [
-    {name = "PCE Development Team", email = "dev@pce.ai"}
+    {name = "Krishna Bajpai", email = "krishna@krishna.me"},
+    {name = "Veddanshi Gupta", email = "krishna@krishna.me"}
 ]
 keywords = ["bioinformatics", "omics", "consciousness", "digital-twin", "quantum", "entropy"]
 classifiers = [
@@ -83,10 +85,10 @@ quantum = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/pce-dev/panomics-consciousness-engine"
-Documentation = "https://pce-dev.github.io/panomics-consciousness-engine"
-Repository = "https://github.com/pce-dev/panomics-consciousness-engine"
-"Bug Tracker" = "https://github.com/pce-dev/panomics-consciousness-engine/issues"
+Homepage = "https://github.com/krish567366/pan-omic"
+Documentation = "https://krish567366.github.io/pan-omic/"
+Repository = "https://github.com/krish567366/pan-omic"
+"Bug Tracker" = "https://github.com/krish567366/pan-omic/issues"
 
 [project.scripts]
 pce = "pce.cli:main"
