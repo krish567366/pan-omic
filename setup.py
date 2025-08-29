@@ -126,13 +126,13 @@ setup(
     description="Pan-Omics Consciousness Engine - A computational framework for modeling consciousness emergence",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    author="PCE Development Team",
-    author_email="dev@pce.ai",
-    url="https://github.com/pce-project/pce",
+    author="Krishna Bajpai and Veddanshi Gupta",
+    author_email="krishna@krishna.me",
+    url="https://github.com/krish567366/pan-omic",
     project_urls={
-        "Documentation": "https://pce-project.github.io/pce",
-        "Source": "https://github.com/pce-project/pce",
-        "Tracker": "https://github.com/pce-project/pce/issues",
+        "Documentation": "https://krish567366.github.io/pan-omic/",
+        "Source": "https://github.com/krish567366/pan-omic",
+        "Tracker": "https://github.com/krish567366/pan-omic/issues",
     },
     
     # Package structure
