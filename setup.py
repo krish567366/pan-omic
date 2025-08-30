@@ -126,7 +126,7 @@ setup(
     description="Pan-Omics Consciousness Engine - A computational framework for modeling consciousness emergence",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    author="Krishna Bajpai and Veddanshi Gupta",
+    author="Krishna Bajpai and Vedanshi Gupta",
     author_email="krishna@krishna.me",
     url="https://github.com/krish567366/pan-omic",
     project_urls={

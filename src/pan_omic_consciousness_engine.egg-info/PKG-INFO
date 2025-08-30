@@ -3,9 +3,9 @@ Name: pan-omic-consciousness-engine
 Version: 1.0.0a0
 Summary: Pan-Omics Consciousness Engine - A computational framework for modeling consciousness emergence
 Home-page: https://github.com/krish567366/pan-omic
-Author: Krishna Bajpai and Veddanshi Gupta
-Author-email: Krishna Bajpai <krishna@krishna.me>, Veddanshi Gupta <krishna@krishna.me>
-Maintainer-email: Krishna Bajpai <krishna@krishna.me>, Veddanshi Gupta <krishna@krishna.me>
+Author: Krishna Bajpai and Vedanshi Gupta
+Author-email: Krishna Bajpai <krishna@krishna.me>, Vedanshi Gupta <krishna@krishna.me>
+Maintainer-email: Krishna Bajpai <krishna@krishna.me>, Vedanshi Gupta <krishna@krishna.me>
 License: Apache License
                                    Version 2.0, January 2004
                                 http://www.apache.org/licenses/

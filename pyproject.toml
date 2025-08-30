@@ -10,11 +10,11 @@ readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
     {name = "Krishna Bajpai", email = "krishna@krishna.me"},
-    {name = "Veddanshi Gupta", email = "krishna@krishna.me"}
+    {name = "Vedanshi Gupta", email = "krishna@krishna.me"}
 ]
 maintainers = [
     {name = "Krishna Bajpai", email = "krishna@krishna.me"},
-    {name = "Veddanshi Gupta", email = "krishna@krishna.me"}
+    {name = "Vedanshi Gupta", email = "krishna@krishna.me"}
 ]
 keywords = ["bioinformatics", "omics", "consciousness", "digital-twin", "quantum", "entropy"]
 classifiers = [
